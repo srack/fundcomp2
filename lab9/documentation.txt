@@ -1,0 +1,25 @@
+Our repository containing project files that will compile and run can be found
+at https://bitbucket.org/srack/donkeykong.  The code I wrote this week
+initializes all Platform and Ladder objects, and blits them to the screen.
+
+This week for lab, I developed classes for the objects that compose the background of the game.  These classes include a base class, StaticObj, and two inheriting classes, Platform and Ladder. When collision detection functions for these objects with Mario is implemented, polymorphism will be used to iterate through StaticObj pointers to all Platform and Ladder objects instantiated.  These objects are instantiated and intialized with the correct data (ie. x,y location, width, height for blitting, and offsets for clipping the image file) in the CApp_OnInit_Static.cpp file.  The initialization information was determined by drawing a map of the game and determining the pixel location of each of the objects.
+In addition to the development of these classes and the instantiations of the
+objects, we worked as a group this week to integrate the code we all had.  At
+the end of the meeting we had, we all understand the structure of our code.
+With this code together, a mario that can be moved around the screen is on top
+of the background objects of the game when ./CApp is run. 
+
+The elements developed this week were verified visually.  After writing the
+code for the Ladder and Platform classes, instantiating the objects with
+correct parameters, and rendering the objects to the screen, the validity and
+correctness of these steps was apparent on the screen.  The same verification
+was used to ensure the CMario object moved accurately according to specified
+key events.
+
+The development of the Ladder, Platform, and StaticObj classes as well as a
+vector of StaticObj pointers to the Ladder and Platform objects lays the
+groundwork for collision detection.  When collision detection functions are
+written, the vector can be iterated through, and polymorphism can be used to
+check if mario has collided with any of the static objects.  Additionally, in
+preparation for coding collision detection, I began to develop logic for the
+different cases where mario would collide with a platform. 

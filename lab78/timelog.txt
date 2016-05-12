@@ -1,0 +1,5 @@
+3/3, 1 hr, SDL Tutorials (sdltutorials.com)
+3/5, 1 hr, SDL Tutorials (sdltutorials.com)
+3/13, 2 hr, SDL Tutorials (sdltutorials.com)
+3/16, 2 hr, SDL Tutorials (sdltutorials.com), set up basic files/classes
+3/21, 3 hr, SDL Tutorials (sdltutorials.com), created image files for static members of game that will be accounted for as part of map, set up bitbucket

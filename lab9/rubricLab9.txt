@@ -1,0 +1,14 @@
+Samantha Rack
+Rubric for Lab 9
+
+SDL Tutorials (20 points)
+	SDL Maps
+	SDL Collision
+	SDL Collision Event
+
+Writing Map for Created Background Image (40 points)
+	Create a txt file that will serve as map for information of pixels on the map.  Each pixel (or group of pixels?) will be given a type (Empty space, Platform, Ladder).  This information will be used for the interaction between the map and entities.
+
+Team Collaboration (20 points)
+	Create a more precise UML diagram with all known classes and their relationships
+	Discuss next steps and who will be completing which tasks

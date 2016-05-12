@@ -1,0 +1,26 @@
+Samantha Rack
+CSE 20212
+Lab 0 Report
+
+When the user runs piestimate, he or she is requested to enter the desired number of
+digits for the pi estimate (given by the series pi = 4 - 4/3 + 4/5 -4/7 + 4/9 - ...).
+If the user enters a number less than 2, an error message is received, and he or she 
+is again requested to enter a number.  When a number greater than or equal to 2 is 
+entered, the program displays the pi estimate after each term is added, starting with
+1 term and continuing up to the number the user entered (ie.  If the user entered 3, 
+the program dislays the estimates after 1 term is added, 2 terms are added, and 3 
+terms are added).
+
+The program piestimate.cpp is defined entirely in the main function.  The program 
+requests information from the user using cout and receives it with cin.  The program
+then implements a while loop to ensure that the user has entered a valid number (>=2).
+If it is invalid input, the pogram display an error message and asks again for the
+number of terms using cout.  Once valid input is entered, the while loop is exited 
+and the program implements a for loop that recalculates the input adding each term
+and displays this sum to the screen for each term until the requested number of 
+terms has been displayed.
+
+This program was verified to be correct by checking different terms and comparing the
+program's output with a sum of the terms of the series computed on a calculator.  
+Invalid input was also checked, and the program correctly displayed an error message
+and requested new input.

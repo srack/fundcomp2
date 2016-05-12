@@ -1,0 +1,7 @@
+3/31	4 hr	implemented collision detection for mario with platforms and ladders, added gravity element
+4/1	1 hr	converted variables walking, jumping, hurting and climbing to an enum so they can be used as values for mario's state data member
+4/2	2 hr	mario state transitions, restrict events based on mario's state
+4/3	3 hr	CPeach class created, collision of peach and mario ends game, tixed some glitches with mario's state (walking, jumping, hurting, climbing) and status (R or L)
+4/4	3 hr	start menu created in CApp_OnStartup.cpp, click start button to play game
+4/6	1 hr	controls display added to start menu
+4/10	2 hr	mario blinks, lives decrement, and mario resets when mario-fire collision, lives displayed on screen, game after if lose all lives

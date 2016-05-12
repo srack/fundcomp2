@@ -1,0 +1,18 @@
+Samantha Rack
+Rubric for Lab 7
+
+
+Part 1-- Basic SDL Tutorials (5 pts)
+(from sdltutorial.com)
+	SDL Tutorial Basics
+	SDL Coordinates and Blitting
+	SDL Events
+	SDL Tutorial - Tic Tac Toe
+
+Part 2-- More Advanced SDL Tutorials (10 pts)
+	SDL Animation
+	SDL Entities
+
+Part 3-- Something Interesting (5 pts)
+	develop the framework of basic class and .cpp files similar to those found in tutorials (ie. CApp, CApp_OnInit, CApp_OnEvent,...) of tutorials that will contain the five overarching function needed to develop a game (initialize, event, loop, render, clean up)
+	get the background sprites (static objects in the game - ie. ladders, platforms) printed to the screen in correct places

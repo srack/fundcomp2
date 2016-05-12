@@ -1,0 +1,5 @@
+3/23	1 hr	Meeting with team -- discussed how to set up background objects (ie. ladders and platforms), exact class heirarchies, and the actions that will be taken when there is a collision based on which two objects collide
+3/24	3 hr	created Static_Obj, Ladder, and Platform classes; instantiated objects of Platform and Ladder to set up the unmoving objects of the game; created a vector of Static_Obj pointers to allow for polymorphic calling of functions
+3/24	2 hr	Meeting with Emily and Tim -- integrated the files we have developed together
+3/27	1 hr	began developing logic for different cases of collision
+detection with platforms
